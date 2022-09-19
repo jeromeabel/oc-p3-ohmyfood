@@ -41,7 +41,6 @@ Projet3_abel_jerome.zip :
     - Secondaire  (rose): #FF79DA
     - Tertiaire (vert) : #99E2D0
 
-
 ## Tech
 "liveSassCompile.settings.generateMap": true,
   "liveSassCompile.settings.formats": [

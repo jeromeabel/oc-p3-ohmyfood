@@ -2,9 +2,7 @@
 
 ## ⏳ Doing
 
-
 ## 🎯 To do
-- [ ] Mise en place SASS (generated map, fichiers)
 - [ ] Header - Accueil
 - [ ] Header - Menu
 - [ ] Footer
@@ -21,3 +19,5 @@
 
 ## ✅ Done
 - [x] Mise en place sur Github (pages)
+- [x] Fonts Shrikhand + Roboto
+- [x] Mise en place SASS
