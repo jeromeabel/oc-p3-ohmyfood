@@ -14,7 +14,8 @@ Dynamisez une page web avec des animations CSS
 
 **Ressources**
 - Brief avec Paul
-- Maquettes
+- Maquettes mobile + animations
+- Fonts : https://fonts.google.com/
 - Déployer site sur github : https://www.youtube.com/watch?v=dBAZ5Qc2bIk
 - Git : 
     - Grafikart (3h50) : https://grafikart.fr/formations/git
@@ -28,18 +29,12 @@ Projet3_abel_jerome.zip :
 
 ## Mission
 - Responsive : mobile-first, tablet & desktop (free)
-- Tech : Github, CSS (+ animations), SASS
+- Outils : Github, CSS (+ animations), SASS
 - Accessibilité : Github Pages
 - Validation W3C en HTML et CSS sans erreur
 - Navigateurs Chrome et Firefox
 - Pages : accueil + 4 menus
-- Polices
-    - Logo et titres: Shrikhand
-    - Texte: Roboto
-- Couleurs
-    - Primaire (violet): #9356DC
-    - Secondaire  (rose): #FF79DA
-    - Tertiaire (vert) : #99E2D0
+- Charte graphique fonts et couleurs
 
 ## Tech
 "liveSassCompile.settings.generateMap": true,
@@ -52,3 +47,5 @@ Projet3_abel_jerome.zip :
   ]
 
 ## Questions / problèmes
+- fonts link ?
+- thème paris ?
