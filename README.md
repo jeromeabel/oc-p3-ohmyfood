@@ -28,7 +28,7 @@ Projet3_abel_jerome.zip :
 - Abel_Jerome_2_site_092022.txt : https://jeromeabel.github.io/
 
 ## Mission
-- Responsive : mobile-first, tablet & desktop (free)
+- Responsive : mobile-first (maquette 375px), tablet & desktop (free)
 - Outils : Github, CSS (+ animations), SASS
 - Accessibilité : Github Pages
 - Validation W3C en HTML et CSS sans erreur
