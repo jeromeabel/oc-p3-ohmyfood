@@ -1,11 +1,8 @@
 # TODO
 
 ## 🎯 To do
-- [-] Header - Accueil
-- [ ] Header - Menu
-- [ ] Footer
-- [ ] Accueil
-- [ ] Menu 1
+- [ ] Page Accueil
+- [ ] Page Menu 1
 - [ ] Anim - btn-main:hover : bg color lighten, shadow + visible
 - [ ] Anim - btn-love:active (❤️ j'aime): se remplir progressivement
 - [ ] Anim - accueil : loader spinner : page intégrale, durée 1s-3s, design libre
@@ -21,3 +18,6 @@
 - [x] Mise en place SASS
 - [x] Découpage - Inkscape
 - [x] Dimensions - Figma / Measure
+- [x] Header - Accueil
+- [x] Header - Menu
+- [x] Footer

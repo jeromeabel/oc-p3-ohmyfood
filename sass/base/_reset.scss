@@ -26,6 +26,15 @@ footer {
     width: 100%;
 }
 
+a { 
+    text-decoration:none;
+    // color:black;
+}
+
+ul {
+    list-style: none;
+}
+
 .on {display:block;}
 .off { display:none;}
 

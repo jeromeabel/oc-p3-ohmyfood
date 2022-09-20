@@ -20,6 +20,14 @@ footer {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 .on {
   display: block;
 }
@@ -84,4 +92,28 @@ footer {
   background: linear-gradient(#FF79DA, #9356DC);
   font-size: 18px;
   color: white;
+}
+
+.footer {
+  padding: 40px;
+  background-color: #393939;
+  color: white;
+}
+.footer__heading {
+  font-family: "Shrikhand", cursive;
+  font-weight: 400;
+}
+
+.nav {
+  margin-top: 20px;
+}
+.nav li {
+  margin: 10px 0;
+}
+.nav__link {
+  color: white;
+}
+.nav__link i {
+  display: inline-block;
+  width: 20px;
 }/*# sourceMappingURL=main.css.map */
