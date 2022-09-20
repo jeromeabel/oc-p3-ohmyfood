@@ -20,6 +20,14 @@ footer {
   width: 100%;
 }
 
+.on {
+  display: block;
+}
+
+.off {
+  display: none;
+}
+
 .header {
   height: 400px;
 }
@@ -28,10 +36,20 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+.header__logo i {
+  position: absolute;
+  left: 20px;
+  font-size: 20px;
 }
 .header__logo picture, .header__logo img {
-  height: 30px;
+  height: 29px;
   width: auto;
+}
+.header__image {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .header__location {
   height: 50px;

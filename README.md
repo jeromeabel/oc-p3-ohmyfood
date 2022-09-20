@@ -36,8 +36,8 @@ Projet3_abel_jerome.zip :
 - Pages : accueil + 4 menus
 - Charte graphique fonts et couleurs
 
-
 ## Questions / problèmes
+- github pages ? ou repo ?
 - fonts link ou sass import ?
 - breakpoints: 375px ou 750px ?
 - thème paris ?
