@@ -8,6 +8,24 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Shrikhand', cursive;
+picture, img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
 }
+
+// .container {
+//     margin-inline: auto;
+//     min-width: 750px;
+//     padding: 0 50px;
+// }
+
+header,
+main,
+footer {
+    width: 100%;
+}
+
+// h1, h2, h3, h4, h5, h6 {
+//     font-family: 'Shrikhand', cursive;
+// }

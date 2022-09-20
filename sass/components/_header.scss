@@ -1,0 +1,48 @@
+.header {
+    height:400px;
+
+    &__logo {
+        height:60px;
+        @include center;
+        picture img { 
+            height:30px; 
+        }
+    }
+
+    &__location {
+        height:50px;
+        font-size: $font-m;
+        @include center;
+        background-color: $color-grey-1;
+        i { 
+            margin-right: 20px;
+        }  
+    }
+
+    &__intro {
+        padding:40px 20px 60px 20px;
+        text-align: center;
+        background-color: $color-grey-2;
+        h1 {
+            font-size:$font-xxl;
+
+        }
+        h2 {
+            margin: 10px auto;
+            font-weight: 100;
+            font-size:$font-l;
+        }
+    }
+
+    &__btn {
+        height:50px;
+
+        border-style: none;
+        padding-inline: 25px;
+        border-radius: 25px;
+        background: linear-gradient($color-2, $color-1);
+
+        font-weight: 600;
+        color: white;
+    }
+}
