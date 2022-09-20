@@ -1,7 +1,6 @@
 # TODO
 
 ## 🎯 To do
-- [ ] Dimensions - Figma 
 - [ ] Header - Accueil
 - [ ] Header - Menu
 - [ ] Footer
@@ -21,3 +20,4 @@
 - [x] Fonts Shrikhand + Roboto
 - [x] Mise en place SASS
 - [x] Découpage - Inkscape
+- [x] Dimensions - Figma / Measure
