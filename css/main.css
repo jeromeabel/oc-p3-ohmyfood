@@ -29,8 +29,9 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.header__logo picture img {
+.header__logo picture, .header__logo img {
   height: 30px;
+  width: auto;
 }
 .header__location {
   height: 50px;
@@ -38,30 +39,31 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ebebeb;
+  background-color: #f1eded;
 }
 .header__location i {
   margin-right: 20px;
 }
 .header__intro {
-  padding: 40px 20px 60px 20px;
+  padding: 40px 20px;
   text-align: center;
-  background-color: #f4f4f4;
+  background-color: #f6f6f6;
 }
 .header__intro h1 {
   font-size: 28px;
 }
 .header__intro h2 {
-  margin: 10px auto;
+  margin: 20px auto;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 18px;
 }
 .header__btn {
+  margin: 10px auto;
   height: 50px;
   border-style: none;
   padding-inline: 25px;
   border-radius: 25px;
   background: linear-gradient(#FF79DA, #9356DC);
-  font-weight: 600;
+  font-size: 18px;
   color: white;
 }/*# sourceMappingURL=main.css.map */

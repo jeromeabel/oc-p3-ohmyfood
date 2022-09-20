@@ -1,7 +1,7 @@
 # TODO
 
 ## 🎯 To do
-- [ ] Header - Accueil
+- [-] Header - Accueil
 - [ ] Header - Menu
 - [ ] Footer
 - [ ] Accueil

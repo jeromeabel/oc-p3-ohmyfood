@@ -4,8 +4,9 @@
     &__logo {
         height:60px;
         @include center;
-        picture img { 
-            height:30px; 
+        picture, img {
+                height: 30px;
+                width: auto;
         }
     }
 
@@ -20,29 +21,27 @@
     }
 
     &__intro {
-        padding:40px 20px 60px 20px;
+        padding:40px 20px;
         text-align: center;
         background-color: $color-grey-2;
         h1 {
             font-size:$font-xxl;
-
         }
         h2 {
-            margin: 10px auto;
+            margin: 20px auto;
             font-weight: 100;
-            font-size:$font-l;
+            font-size:$font-m;
         }
     }
 
     &__btn {
+        margin: 10px auto;
         height:50px;
-
         border-style: none;
         padding-inline: 25px;
         border-radius: 25px;
         background: linear-gradient($color-2, $color-1);
-
-        font-weight: 600;
+        font-size:$font-m;
         color: white;
     }
 }

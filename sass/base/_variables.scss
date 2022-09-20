@@ -1,0 +1,32 @@
+$font-s: 14px;
+$font-m: 18px;
+$font-l: 20px;
+$font-xl: 22px;
+$font-xxl: 28px;
+
+$color-1: #9356DC;
+$color-2: #FF79DA;
+$color-3: #99E2D0;
+$color-grey-1:#f1eded;
+$color-grey-2:#f6f6f6;
+
+
+// Bootstrap font sizes
+$font-sizes: (
+    1: 5rem,
+    2: 4.5rem,
+    3: 4rem,
+    4: 3.5rem,
+    5: 3rem,
+    6: 2.5rem
+);
+
+// Bootstrap breakpoints
+$breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+);

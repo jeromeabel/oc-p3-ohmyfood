@@ -36,7 +36,15 @@ Projet3_abel_jerome.zip :
 - Pages : accueil + 4 menus
 - Charte graphique fonts et couleurs
 
-## Tech
+
+## Questions / problèmes
+- fonts link ou sass import ?
+- breakpoints: 375px ou 750px ?
+- thème paris ?
+- box-shadow logo ?
+
+## Setup Live Sass Compiler
+```
 "liveSassCompile.settings.generateMap": true,
   "liveSassCompile.settings.formats": [
     {
@@ -45,8 +53,4 @@ Projet3_abel_jerome.zip :
       "savePath": "/css"
     }
   ]
-
-## Questions / problèmes
-- fonts link ou sass import ?
-- breakpoints: 375px ou 750px ?
-- thème paris ?
+```
