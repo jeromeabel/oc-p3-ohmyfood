@@ -38,6 +38,7 @@ Projet3_abel_jerome.zip :
 
 ## Questions / problèmes
 - github pages ? ou repo ?
+- git branches / fonctionnalité + merge ?
 - fonts link ou sass import ?
 - breakpoints: 375px ou 750px ?
 - thème paris ?
