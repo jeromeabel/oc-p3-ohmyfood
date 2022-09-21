@@ -71,6 +71,12 @@ button {
   left: 40px;
   color: #807d7d;
 }
+.menu__btn:hover {
+  background-color: #e4d5f6;
+}
+.menu__btn:hover i {
+  color: #9356DC;
+}
 
 .header {
   height: 400px;

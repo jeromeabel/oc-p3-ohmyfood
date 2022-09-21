@@ -30,4 +30,10 @@
         color:$color-grey-4;
     }
 
+    &:hover {
+        background-color: lighten($color-1, 30%);
+        i {
+            color:$color-1;
+        }
+    }
 }
