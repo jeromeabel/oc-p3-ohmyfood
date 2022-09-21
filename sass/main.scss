@@ -4,7 +4,10 @@
 @import "base/mixins";
 
 // COMPONENTS
+@import "components/menu-btn";
 
 // LAYOUTS
-@import "components/header";
-@import "components/footer";
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/menu";
+@import "layouts/restaurants";
