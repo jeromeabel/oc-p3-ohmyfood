@@ -50,18 +50,25 @@
         font-size: $font-xxl;
 
         .fa-solid {
-            color: transparent;
-        }
-
-        &:hover {
-            .fa-solid {
-                background: linear-gradient($color-1, $color-2);
+            opacity: 0;
+            background: linear-gradient($color-1, $color-2);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
+            transition: opacity 300ms ease-in-out;
+        }
+
+        .fa-regular {
+            opacity: 1;
+            transition: opacity 300ms ease-in-out;
+        }
+            
+        &:hover {
+            .fa-solid {
+                opacity: 1;
             }
 
             .fa-regular {
-                color: transparent;
+                opacity: 0;
             }
         }
     }
