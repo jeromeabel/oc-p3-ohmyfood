@@ -1,6 +1,7 @@
 # 🎯 TODO
 
 - [x] Mise en place sur Github (pages)
+- [x] Branch develop
 - [x] Fonts Shrikhand + Roboto
 - [x] Mise en place SASS
 - [x] Découpage - Inkscape
@@ -10,9 +11,9 @@
 - [x] Footer
 - [x] Components : menu btn
 - [x] Layout : menu
-- [x] Components : card
-- [ ] Layout : card
-- [ ] Page Accueil
+- [x] Components : card (+stacked icon)
+- [x] Layout : card
+- [x] Page Accueil
 - [ ] Page Menu 1
 - [ ] Anim - btn-main:hover : bg color lighten, shadow + visible
 - [ ] Anim - btn-love:active (❤️ j'aime): se remplir progressivement
