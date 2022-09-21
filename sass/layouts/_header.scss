@@ -5,10 +5,15 @@
         height:60px;
         @include center;
         position:relative;
-        i {
+
+        a {
             position: absolute;
-            left:20px;
+            left:0px;
+            padding:20px;
             font-size: $font-l;
+            &:hover {
+                color:$color-2;
+            }
         }
         picture, img {
                 height: 29px;

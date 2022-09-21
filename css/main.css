@@ -150,10 +150,14 @@ button {
   align-items: center;
   position: relative;
 }
-.header__logo i {
+.header__logo a {
   position: absolute;
-  left: 20px;
+  left: 0px;
+  padding: 20px;
   font-size: 20px;
+}
+.header__logo a:hover {
+  color: #FF79DA;
 }
 .header__logo picture, .header__logo img {
   height: 29px;
