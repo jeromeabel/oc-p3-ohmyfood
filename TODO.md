@@ -16,7 +16,7 @@
 - [x] Page Accueil
 - [x] Anim - menu__btn:hover : progressivement bg color lighten, shadow + visible
 - [x] Anim - card__heart:hover (❤️): se remplir progressivement
-- [ ] Anim - accueil : loader spinner : page intégrale, durée 1s-3s, design libre
+- [x] Anim - accueil : loader spinner : page intégrale, durée 1s-3s, design libre
 - [ ] Anim - menu : chargement de la page : apparition progressive des plats (un par un ou en groupe entrée/plat/dessert) +  légers décalages
 - [ ] Anim - menu - btn commande:hover : coche de droite à gauche, texte trop long rogné avec "..."
 - [ ] Page Menu 1

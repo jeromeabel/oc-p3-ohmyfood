@@ -21,6 +21,7 @@ Dynamisez une page web avec des animations CSS
     - Grafikart (3h50) : https://grafikart.fr/formations/git
     - Git Expert (OC) : https://openclassrooms.com/fr/courses/7688581-devenez-un-expert-de-git-et-github
 - Sass : https://www.grafikart.fr/formations/sass-preprocesseur
+- Loading spinner : https://cssloaders.github.io/, https://codepen.io/collection/KLDEaD, https://www.youtube.com/watch?v=-HS9IIuT_Mo
 
 **Livrables**
 Projet3_abel_jerome.zip :

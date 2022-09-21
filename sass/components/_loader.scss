@@ -1,23 +1,44 @@
-body::after {
-    background-color: white;
-    position:absolute;
+.loader {
+    /* all the page */
+    position: fixed;
     top:0;
-    bottom:0;
     left:0;
-    right:0;
-    width:100vw;
+    width: 100vw;
     height: 100vh;
-    content:"";
-    animation: anim-loader 10s forwards;
+    /* top */
+    z-index: 1;
+    /* center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* bg color */
+    background-color: $color-grey-2;
+    opacity: .9;
+    /*anim*/
+    animation: fadeout 3s 2s linear forwards;
+
+    // animated pseudo element
+    &::after {
+        content:"";
+        width: 150px;
+        height:150px;
+        border: 20px solid transparent;
+        border-bottom-color: $color-2;
+        border-top-color: $color-1;
+        border-radius: 50%;
+        animation: loading 0.75s ease infinite;
+    }
 }
 
-
-@keyframes anim-loader {
-    from {
-        opacity: 1;
+@keyframes loading {
+    to {
+        transform: rotate(-360deg);
     }
+}
 
+@keyframes fadeout {
     to {
         opacity: 0;
+        visibility: hidden;
     }
 }

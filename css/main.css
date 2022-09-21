@@ -149,35 +149,59 @@ button {
   opacity: 0;
 }
 
-body::after {
-  background-color: white;
-  position: absolute;
+.loader {
+  /* all the page */
+  position: fixed;
   top: 0;
-  bottom: 0;
   left: 0;
-  right: 0;
   width: 100vw;
   height: 100vh;
+  /* top */
+  z-index: 1;
+  /* center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* bg color */
+  background-color: #f6f6f6;
+  opacity: 0.9;
+  /*anim*/
+  -webkit-animation: fadeout 3s 2s linear forwards;
+          animation: fadeout 3s 2s linear forwards;
+}
+.loader::after {
   content: "";
-  -webkit-animation: anim-loader 10s forwards;
-          animation: anim-loader 10s forwards;
+  width: 150px;
+  height: 150px;
+  border: 20px solid transparent;
+  border-bottom-color: #FF79DA;
+  border-top-color: #9356DC;
+  border-radius: 50%;
+  -webkit-animation: loading 0.75s ease infinite;
+          animation: loading 0.75s ease infinite;
 }
 
-@-webkit-keyframes anim-loader {
-  from {
-    opacity: 1;
-  }
+@-webkit-keyframes loading {
   to {
-    opacity: 0;
+    transform: rotate(-360deg);
   }
 }
 
-@keyframes anim-loader {
-  from {
-    opacity: 1;
+@keyframes loading {
+  to {
+    transform: rotate(-360deg);
   }
+}
+@-webkit-keyframes fadeout {
   to {
     opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes fadeout {
+  to {
+    opacity: 0;
+    visibility: hidden;
   }
 }
 .header {
