@@ -6,6 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
 picture, img {
@@ -48,6 +49,8 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 600;
+  font-size: 14px;
 }
 .menu__btn__nb {
   display: flex;
@@ -60,6 +63,11 @@ button {
   border-radius: 50%;
   color: white;
   background-color: #9356DC;
+}
+.menu__btn i {
+  position: absolute;
+  left: 45px;
+  color: #807d7d;
 }
 
 .header {
