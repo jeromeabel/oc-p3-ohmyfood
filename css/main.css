@@ -222,7 +222,12 @@ button {
 
 .restaurants {
   padding: 50px 20px;
+  background-color: #f6f6f6;
 }
 .restaurants__list {
   padding: 25px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }/*# sourceMappingURL=main.css.map */

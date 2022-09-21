@@ -1,7 +1,16 @@
-# TODO
+# 🎯 TODO
 
-## 🎯 To do
-- [ ] Components : card
+- [x] Mise en place sur Github (pages)
+- [x] Fonts Shrikhand + Roboto
+- [x] Mise en place SASS
+- [x] Découpage - Inkscape
+- [x] Dimensions - Figma / Measure
+- [x] Header - Accueil
+- [x] Header - Menu
+- [x] Footer
+- [x] Components : menu btn
+- [x] Layout : menu
+- [x] Components : card
 - [ ] Layout : card
 - [ ] Page Accueil
 - [ ] Page Menu 1
@@ -13,17 +22,3 @@
 - [ ] Menus 2, 3, 4
 - [ ] Validations
 - [ ] Tests Chrome et Firefox
-
-## ✅ Done
-- [x] Mise en place sur Github (pages)
-- [x] Fonts Shrikhand + Roboto
-- [x] Mise en place SASS
-- [x] Découpage - Inkscape
-- [x] Dimensions - Figma / Measure
-- [x] Header - Accueil
-- [x] Header - Menu
-- [x] Footer
-- [x] Components : menu btn
-- [x] Layout : menu
-
-
