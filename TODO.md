@@ -1,7 +1,7 @@
 # TODO
 
 ## 🎯 To do
-- [ ] Components : menu btn
+- [x] Layout : menu
 - [ ] Components : card
 - [ ] Page Accueil
 - [ ] Page Menu 1
@@ -23,3 +23,5 @@
 - [x] Header - Accueil
 - [x] Header - Menu
 - [x] Footer
+- [x] Components : menu btn
+
