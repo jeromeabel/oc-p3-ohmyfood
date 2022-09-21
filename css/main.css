@@ -132,15 +132,21 @@ button {
   font-size: 28px;
 }
 .card__heart .fa-solid {
-  color: transparent;
-}
-.card__heart:hover .fa-solid {
+  opacity: 0;
   background: linear-gradient(#9356DC, #FF79DA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  transition: opacity 300ms ease-in-out;
+}
+.card__heart .fa-regular {
+  opacity: 1;
+  transition: opacity 300ms ease-in-out;
+}
+.card__heart:hover .fa-solid {
+  opacity: 1;
 }
 .card__heart:hover .fa-regular {
-  color: transparent;
+  opacity: 0;
 }
 
 .header {
