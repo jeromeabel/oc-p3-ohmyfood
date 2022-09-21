@@ -48,6 +48,7 @@ Projet3_abel_jerome.zip :
 - card : img alignement différent ?
 - box-shadow logo ?
 - apparition/disparition éléments ? Nouveau (card) + Arrow (header menu) > classes display none/block
+- anim. background > opacity (performances)
 
 ## Setup Live Sass Compiler
 ```
