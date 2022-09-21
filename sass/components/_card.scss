@@ -1,7 +1,7 @@
 .card {
     width:100%;
     height:250px;
-    border-radius: 25px;
+    border-radius: 15px;
     box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.1);
     overflow: hidden;
     position: relative;
@@ -32,5 +32,20 @@
         width:100%;
         height:75px;
         background-color: white ;
+        padding:15px;
+        display: flex;
+        justify-content: space-between;
+
+        i {
+            font-size: $font-xxl;
+            margin-right:15px;
+        }
+    }
+
+    &__heading {
+        line-height: 1.5em;
+        p {
+            font-weight: 100;
+        }    
     }
 }

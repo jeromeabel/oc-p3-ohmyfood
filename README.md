@@ -45,6 +45,7 @@ Projet3_abel_jerome.zip :
 - thème paris ?
 - logo image ou font ?
 - images responsive ? un seul dossier... > img ou picture
+- card : img alignement différent ?
 - box-shadow logo ?
 - apparition/disparition éléments ? Nouveau (card) + Arrow (header menu) > classes display none/block
 
