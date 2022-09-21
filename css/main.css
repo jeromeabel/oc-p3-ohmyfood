@@ -149,6 +149,37 @@ button {
   opacity: 0;
 }
 
+body::after {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  content: "";
+  -webkit-animation: anim-loader 10s forwards;
+          animation: anim-loader 10s forwards;
+}
+
+@-webkit-keyframes anim-loader {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes anim-loader {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
 .header {
   height: 400px;
 }
