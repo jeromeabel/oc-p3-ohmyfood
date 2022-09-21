@@ -14,7 +14,7 @@
 - [x] Components : card (+stacked icon)
 - [x] Layout : card
 - [x] Page Accueil
-- [ ] Anim - menu__btn:hover : progressivement bg color lighten, shadow + visible
+- [x] Anim - menu__btn:hover : progressivement bg color lighten, shadow + visible
 - [ ] Anim - card__heart:hover (❤️): se remplir progressivement
 - [ ] Anim - accueil : loader spinner : page intégrale, durée 1s-3s, design libre
 - [ ] Anim - menu : chargement de la page : apparition progressive des plats (un par un ou en groupe entrée/plat/dessert) +  légers décalages
