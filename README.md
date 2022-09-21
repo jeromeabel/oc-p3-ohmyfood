@@ -39,9 +39,12 @@ Projet3_abel_jerome.zip :
 ## Questions / problèmes
 - github pages ? ou repo ?
 - git branches / fonctionnalité + merge ?
+- ? container ?
 - fonts link ou sass import ?
 - breakpoints: 375px ou 750px ?
 - thème paris ?
+- logo image ou font ?
+- images responsive ? un seul dossier... > img ou picture
 - box-shadow logo ?
 - apparition/disparition éléments ? Nouveau (card) + Arrow (header menu) > classes display none/block
 
