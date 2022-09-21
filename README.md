@@ -43,6 +43,7 @@ Projet3_abel_jerome.zip :
 - breakpoints: 375px ou 750px ?
 - thème paris ?
 - box-shadow logo ?
+- apparition/disparition éléments ? Nouveau (card) + Arrow (header menu) > classes display none/block
 
 ## Setup Live Sass Compiler
 ```

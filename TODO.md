@@ -1,8 +1,8 @@
 # TODO
 
 ## 🎯 To do
-- [x] Layout : menu
 - [ ] Components : card
+- [ ] Layout : card
 - [ ] Page Accueil
 - [ ] Page Menu 1
 - [ ] Anim - btn-main:hover : bg color lighten, shadow + visible
@@ -24,4 +24,6 @@
 - [x] Header - Menu
 - [x] Footer
 - [x] Components : menu btn
+- [x] Layout : menu
+
 
