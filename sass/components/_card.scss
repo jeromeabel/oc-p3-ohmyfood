@@ -7,9 +7,23 @@
     position: relative;
 
     &__header {
+        @include center;
+        position: relative;
         img {
             object-fit: cover;
         }
+    }
+
+    &__new {
+        position: absolute;
+        top: 15px;
+        right:15px;
+        color:darken($color-3,35%);
+        font-weight: 600;
+        background-color: $color-3;
+        padding:5px 10px;
+        font-size:$font-s;
+        border-radius: 3px;
     }
 
     &__body {

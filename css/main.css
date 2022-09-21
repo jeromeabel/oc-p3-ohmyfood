@@ -86,9 +86,26 @@ button {
   overflow: hidden;
   position: relative;
 }
+.card__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 .card__header img {
   -o-object-fit: cover;
      object-fit: cover;
+}
+.card__new {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #2c9c81;
+  font-weight: 600;
+  background-color: #99E2D0;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 3px;
 }
 .card__body {
   position: absolute;
