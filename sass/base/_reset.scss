@@ -15,12 +15,6 @@ picture, img {
     max-width: 100%;
 }
 
-// .container {
-//     margin-inline: auto;
-//     min-width: 750px;
-//     padding: 0 50px;
-// }
-
 header,
 main,
 footer {
@@ -29,7 +23,7 @@ footer {
 
 a { 
     text-decoration:none;
-    // color:black;
+    color:black;
 }
 
 ul {
@@ -38,6 +32,7 @@ ul {
 
 button {
     border-style: none;
+    background-color: transparent;
 }
 
 .on {display:block;}
