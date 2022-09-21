@@ -1,14 +1,15 @@
 .card {
-    width:100%;
-    height:250px;
+    width: 100%;
+    height: 250px;
     border-radius: 15px;
-    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     position: relative;
 
     &__header {
         @include center;
         position: relative;
+
         img {
             object-fit: cover;
         }
@@ -17,35 +18,51 @@
     &__new {
         position: absolute;
         top: 15px;
-        right:15px;
-        color:darken($color-3,35%);
+        right: 15px;
+        color: darken($color-3, 35%);
         font-weight: 600;
         background-color: $color-3;
-        padding:5px 10px;
-        font-size:$font-s;
+        padding: 5px 10px;
+        font-size: $font-s;
         border-radius: 3px;
     }
 
     &__body {
         position: absolute;
-        bottom:0;
-        width:100%;
-        height:75px;
-        background-color: white ;
-        padding:15px;
+        bottom: 0;
+        width: 100%;
+        height: 75px;
+        background-color: white;
+        padding: 15px;
         display: flex;
         justify-content: space-between;
-
-        i {
-            font-size: $font-xxl;
-            margin-right:15px;
-        }
     }
 
     &__heading {
         line-height: 1.5em;
+
         p {
             font-weight: 100;
-        }    
+        }
+    }
+
+    &__heart {
+        font-size: $font-xxl;
+
+        .fa-solid {
+            color: transparent;
+        }
+
+        &:hover {
+            .fa-solid {
+                background: linear-gradient($color-1, $color-2);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .fa-regular {
+                color: transparent;
+            }
+        }
     }
 }
