@@ -204,6 +204,39 @@ button {
     visibility: hidden;
   }
 }
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item {
+  border-radius: 20px;
+  height: 75px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.item * {
+  outline: 1px solid red;
+}
+.item__txt p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.item__price {
+  height: 100%;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header {
   height: 400px;
 }
@@ -318,12 +351,12 @@ button {
   position: relative;
   top: -125px;
   border-radius: 50px 50px 0 0px;
+  padding: 25px 20px;
 }
 .restaurant__header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 20px;
 }
 .restaurant__header h2 {
   font-family: Shrikhand;
