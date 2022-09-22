@@ -29,6 +29,8 @@
     border-radius: 15px;
     height: 65px;
     background-color: white;
+    overflow: hidden;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,7 +45,8 @@
     &__bottom {
         display: flex;
         justify-content: space-between;
-
+        width: 100%;
+        transition: width 350ms 0ms;
 
         p {
             flex: 1;
@@ -60,5 +63,43 @@
             width: 50px;
             font-weight: 600;
         }
+    }
+
+    &:hover > &__bottom {
+        width:80%;
+    }
+
+    &:hover > &__select {
+        transform: translateX(0);
+
+        
+    }
+
+    &:hover > &__select  > i {
+        transform: rotate(360deg);
+    }
+
+    &__select {
+        font-size: $font-l;
+        position: absolute;
+        right:0;
+        transform: translateX(75px);
+        width:75px;
+        color:white;
+        background-color: $color-3;
+        height:100%;
+        border-radius: 0 15px 15px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 350ms ease-out;
+
+        i {
+            transform: rotate(180deg);
+            transition: all 350ms ease-in;
+
+        }
+
+
     }
 }

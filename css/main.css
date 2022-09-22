@@ -232,6 +232,8 @@ button {
   border-radius: 15px;
   height: 65px;
   background-color: white;
+  overflow: hidden;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -245,6 +247,8 @@ button {
 .item__bottom {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  transition: width 350ms 0ms;
 }
 .item__bottom p {
   flex: 1;
@@ -259,6 +263,34 @@ button {
   font-size: 14px;
   width: 50px;
   font-weight: 600;
+}
+.item:hover > .item__bottom {
+  width: 80%;
+}
+.item:hover > .item__select {
+  transform: translateX(0);
+}
+.item:hover > .item__select > i {
+  transform: rotate(360deg);
+}
+.item__select {
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+  transform: translateX(75px);
+  width: 75px;
+  color: white;
+  background-color: #99E2D0;
+  height: 100%;
+  border-radius: 0 15px 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 350ms ease-out;
+}
+.item__select i {
+  transform: rotate(180deg);
+  transition: all 350ms ease-in;
 }
 
 .header {
