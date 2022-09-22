@@ -342,13 +342,22 @@ button {
 }
 .header__btn {
   margin: 10px auto;
+  display: block;
+  text-align: center;
+  color: white;
   height: 50px;
   padding-inline: 25px;
   border-radius: 25px;
   background: linear-gradient(#FF79DA, #9356DC);
   font-size: 18px;
-  color: white;
+  font-weight: 400;
   cursor: pointer;
+  transition: all 350ms ease-in-out;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+.header__btn:hover {
+  background: linear-gradient(#ff88de, #9b63df);
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
 }
 
 .footer {
@@ -418,16 +427,21 @@ button {
   font-weight: 100;
 }
 .restaurant__btn {
-  text-align: center;
   margin: 50px auto;
-}
-.restaurant__btn button {
+  display: block;
+  text-align: center;
+  color: white;
   height: 50px;
-  padding-inline: 50px;
+  padding-inline: 25px;
   border-radius: 25px;
   background: linear-gradient(#FF79DA, #9356DC);
-  font-size: 16px;
-  font-weight: 600;
-  color: white;
+  font-size: 18px;
+  font-weight: 400;
   cursor: pointer;
+  transition: all 350ms ease-in-out;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+.restaurant__btn:hover {
+  background: linear-gradient(#ff88de, #9b63df);
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
 }/*# sourceMappingURL=main.css.map */

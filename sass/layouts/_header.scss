@@ -61,12 +61,9 @@
 
     &__btn {
         margin: 10px auto;
-        height:50px;
-        padding-inline: 25px;
-        border-radius: 25px;
-        background: linear-gradient($color-2, $color-1);
-        font-size:$font-m;
-        color: white;
-        cursor: pointer;
+        @include btn-main;
+        &:hover {
+            @include btn-main-hover;
+        }
     }
 }

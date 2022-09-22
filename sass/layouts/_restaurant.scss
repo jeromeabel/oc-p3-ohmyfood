@@ -22,18 +22,11 @@
     }
 
     &__btn {
-        text-align: center;
         margin: 50px auto;
-        button {
-            height:50px;
-            padding-inline: 50px;
-            border-radius: 25px;
-            background: linear-gradient($color-2, $color-1);
-            font-size:$font-s;
-            font-weight: 600;
-            color: white;
-            cursor: pointer;
-        }
+        @include btn-main;
 
+        &:hover {
+            @include btn-main-hover;
+        }
     }
 }
