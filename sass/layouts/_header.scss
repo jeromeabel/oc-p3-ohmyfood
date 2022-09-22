@@ -5,6 +5,8 @@
         height:60px;
         @include center;
         position:relative;
+        box-shadow: 0 0 0.5rem rgba(0,0,0,0.5);
+        z-index: 1;
 
         a {
             position: absolute;

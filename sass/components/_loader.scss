@@ -6,7 +6,7 @@
     width: 100vw;
     height: 100vh;
     /* top */
-    z-index: 1;
+    z-index: 2;
     /* center */
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@
     background-color: $color-grey-2;
     opacity: .9;
     /*anim*/
-    animation: fadeout 3s 2s linear forwards;
+    animation: fadeout 2.5s 750ms linear forwards;
 
     // animated pseudo element
     &::after {
