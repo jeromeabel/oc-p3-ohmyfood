@@ -26,93 +26,100 @@
 }
 
 
-// One item
 .item {
-    border-radius: 15px;
-    height: 65px;
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        height: 70px;
+        display: flex;
+        overflow: hidden;
+        
+        &__header {
+                padding: 1rem;
+                flex:1;
+                overflow: hidden;
+                * {
+                    white-space: nowrap; 
+                    overflow: hidden;
+                    text-overflow: ellipsis; 
+                }
+        }
+
+        &__price {
+            padding:1rem;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            font-weight: bold;
+        }
+
+        &__select {
+            display: grid;
+            place-content: center;
+            height: 100%;
+            background-color:$color-3;
+            font-size:$font-xl;
+            color: white;
+            margin-right: -4rem;
+            transition: all 500ms;
+            width:4rem;
+            i {
+                transition: transform 500ms;
+            }
+        }
+
+       &:hover &__select {
+            //width:auto;
+            margin-right: 0;
+            i {
+                transform: rotate(-360deg);
+            }
+
+        }
+}
+
+/*
+.item {
     background-color: white;
     overflow: hidden;
-    position: relative;
+    cursor: pointer;
+    max-width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 5px;
-    padding: 15px;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.12);
-    opacity: 0;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
 
-    // delay for each item
-    @for $i from 1 through 9 {
-        &--#{$i} {
-            $delay: $i * 75;
-            animation: fadein 350ms #{$delay}ms ease-in-out forwards;
-        }
-    }
-
-    h4 {
-        font-size: $font-m;
-    }
-
-    &__bottom {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        transition: width 350ms 0ms;
-
-        p {
-            flex: 1;
-            font-weight: 300;
+    &__header {
+        overflow: hidden;
+        flex: 1;
+        * {
             white-space: nowrap;
-            font-size: $font-s;
-            overflow: hidden;
             text-overflow: ellipsis;
-        }
-
-        span {
-            text-align: center;
-            font-size: $font-xs;
-            width: 50px;
-            font-weight: 600;
+            overflow: hidden;
         }
     }
 
-    &:hover>&__bottom {
-        width: 80%;
-    }
-
-    &:hover>&__select {
-        transform: translateX(0);
-        i { transform: rotate(360deg); }
-    }
-
-    &__select {
-        font-size: $font-l;
-        position: absolute;
-        right: 0;
-        transform: translateX(75px);
-        width: 75px;
-        color: white;
-        background-color: $color-3;
-        height: 100%;
-        border-radius: 0 15px 15px 0;
+    &__price {
+        font-weight: bold;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: all 350ms ease-out;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-left: 0.5rem;
+      }
+    
+      &__select {
+        background-color: $color-3;
+        margin: -1rem -5rem -1rem 1rem;
+        width: 4rem;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        transition-duration: 0.5s;
+      }
 
-        i {
-            transform: rotate(0deg);
-            transition: all 350ms ease-in;
-        }
-    }
-}
+      &:hover &__select {
+        margin-right: -1rem;
+      }
 
-@keyframes fadein {
-    from {
-        transform: translateY(15%);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
+*/
