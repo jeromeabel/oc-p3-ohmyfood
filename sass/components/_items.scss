@@ -33,6 +33,7 @@
     height: 70px;
     display: flex;
     overflow: hidden;
+    cursor: pointer;
 
     // delay for each item
     @for $i from 1 through 9 {

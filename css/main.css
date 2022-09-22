@@ -277,6 +277,7 @@ button {
   height: 70px;
   display: flex;
   overflow: hidden;
+  cursor: pointer;
 }
 .item--1 {
   -webkit-animation: menu-fadein 380ms 80ms ease-in-out both;
