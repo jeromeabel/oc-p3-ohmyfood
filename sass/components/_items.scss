@@ -1,8 +1,9 @@
+// List of items 
 .items {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding:5px 0;
+    padding: 5px 0;
 
     h3 {
         text-transform: uppercase;
@@ -25,6 +26,7 @@
 }
 
 
+// One item
 .item {
     border-radius: 15px;
     height: 65px;
@@ -36,7 +38,16 @@
     justify-content: center;
     gap: 5px;
     padding: 15px;
-    box-shadow:0 0 12px rgba(0,0,0,0.12);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.12);
+    opacity: 0;
+
+    // delay for each item
+    @for $i from 1 through 9 {
+        &--#{$i} {
+            $delay: $i * 75;
+            animation: fadein 350ms #{$delay}ms ease-in-out forwards;
+        }
+    }
 
     h4 {
         font-size: $font-m;
@@ -52,42 +63,37 @@
             flex: 1;
             font-weight: 300;
             white-space: nowrap;
-            font-size:$font-s;
+            font-size: $font-s;
             overflow: hidden;
             text-overflow: ellipsis;
         }
 
         span {
             text-align: center;
-            font-size:$font-xs;
+            font-size: $font-xs;
             width: 50px;
             font-weight: 600;
         }
     }
 
-    &:hover > &__bottom {
-        width:80%;
+    &:hover>&__bottom {
+        width: 80%;
     }
 
-    &:hover > &__select {
+    &:hover>&__select {
         transform: translateX(0);
-
-        
-    }
-
-    &:hover > &__select  > i {
-        transform: rotate(360deg);
+        i { transform: rotate(360deg); }
     }
 
     &__select {
         font-size: $font-l;
         position: absolute;
-        right:0;
+        right: 0;
         transform: translateX(75px);
-        width:75px;
-        color:white;
+        width: 75px;
+        color: white;
         background-color: $color-3;
-        height:100%;
+        height: 100%;
         border-radius: 0 15px 15px 0;
         display: flex;
         justify-content: center;
@@ -95,11 +101,18 @@
         transition: all 350ms ease-out;
 
         i {
-            transform: rotate(180deg);
+            transform: rotate(0deg);
             transition: all 350ms ease-in;
-
         }
+    }
+}
 
-
+@keyframes fadein {
+    from {
+        transform: translateY(15%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }

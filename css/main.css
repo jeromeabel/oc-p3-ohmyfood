@@ -240,6 +240,43 @@ button {
   gap: 5px;
   padding: 15px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.12);
+  opacity: 0;
+}
+.item--1 {
+  -webkit-animation: fadein 350ms 75ms ease-in-out forwards;
+          animation: fadein 350ms 75ms ease-in-out forwards;
+}
+.item--2 {
+  -webkit-animation: fadein 350ms 150ms ease-in-out forwards;
+          animation: fadein 350ms 150ms ease-in-out forwards;
+}
+.item--3 {
+  -webkit-animation: fadein 350ms 225ms ease-in-out forwards;
+          animation: fadein 350ms 225ms ease-in-out forwards;
+}
+.item--4 {
+  -webkit-animation: fadein 350ms 300ms ease-in-out forwards;
+          animation: fadein 350ms 300ms ease-in-out forwards;
+}
+.item--5 {
+  -webkit-animation: fadein 350ms 375ms ease-in-out forwards;
+          animation: fadein 350ms 375ms ease-in-out forwards;
+}
+.item--6 {
+  -webkit-animation: fadein 350ms 450ms ease-in-out forwards;
+          animation: fadein 350ms 450ms ease-in-out forwards;
+}
+.item--7 {
+  -webkit-animation: fadein 350ms 525ms ease-in-out forwards;
+          animation: fadein 350ms 525ms ease-in-out forwards;
+}
+.item--8 {
+  -webkit-animation: fadein 350ms 600ms ease-in-out forwards;
+          animation: fadein 350ms 600ms ease-in-out forwards;
+}
+.item--9 {
+  -webkit-animation: fadein 350ms 675ms ease-in-out forwards;
+          animation: fadein 350ms 675ms ease-in-out forwards;
 }
 .item h4 {
   font-size: 18px;
@@ -270,7 +307,7 @@ button {
 .item:hover > .item__select {
   transform: translateX(0);
 }
-.item:hover > .item__select > i {
+.item:hover > .item__select i {
   transform: rotate(360deg);
 }
 .item__select {
@@ -289,10 +326,29 @@ button {
   transition: all 350ms ease-out;
 }
 .item__select i {
-  transform: rotate(180deg);
+  transform: rotate(0deg);
   transition: all 350ms ease-in;
 }
 
+@-webkit-keyframes fadein {
+  from {
+    transform: translateY(15%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadein {
+  from {
+    transform: translateY(15%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .header {
   height: 400px;
 }
