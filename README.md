@@ -45,7 +45,7 @@ Projet3_abel_jerome.zip :
 - header : box-shadow logo ?
 - accueil - card : img alignement différent ?
 - page menu : main au dessus de l'image du header : top:-125px ?
-
+- page menu : anim button select : translateX en px... VS déplacement du texte en %
 
 ## Questions II
 - anim. background > opacity (performances)
