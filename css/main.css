@@ -311,4 +311,22 @@ button {
   flex-direction: column;
   align-items: center;
   gap: 20px;
+}
+
+.restaurant {
+  background-color: #f6f6f6;
+  position: relative;
+  top: -125px;
+  border-radius: 50px 50px 0 0px;
+}
+.restaurant__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 20px;
+}
+.restaurant__header h2 {
+  font-family: Shrikhand;
+  font-size: 28px;
+  font-weight: 100;
 }/*# sourceMappingURL=main.css.map */
