@@ -55,7 +55,6 @@ Projet3_abel_jerome.zip :
 - images responsive ? un seul dossier... > img ou picture
 - apparition/disparition éléments ? Nouveau (card) + Arrow (header menu) > classes display none/block
 
-
 ## Setup Live Sass Compiler
 ```
 "liveSassCompile.settings.generateMap": true,
@@ -67,3 +66,11 @@ Projet3_abel_jerome.zip :
     }
   ]
 ```
+
+## Apprentissage
+- Git branch
+- Git commit + petits
+- découpage, dimensions
+- BEM
+- Sass : organisation, nesting, mixins
+- Animations
