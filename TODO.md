@@ -22,5 +22,7 @@
 - [x] Anim - menu : chargement de la page : apparition progressive des plats (un par un ou en groupe entrée/plat/dessert) +  légers décalages
 - [-] Anim - menu - btn commande:hover : coche de droite à gauche, texte trop long rogné avec "..."
 - [ ] Pages Menus b, c, d
+- [ ] Layout Tablets
+- [ ] Layout Desktop
 - [ ] Validations
 - [ ] Tests Chrome et Firefox
