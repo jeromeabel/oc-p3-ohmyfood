@@ -1,0 +1,19 @@
+.restaurant {
+    background-color: $color-grey-2;
+    position: relative;
+    top:-125px;
+    border-radius: 50px 50px 0 0px;
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:25px 20px;
+
+        h2 {
+            font-family:Shrikhand;
+            font-size: $font-xxl;
+            font-weight: 100;
+        }
+    }
+}
