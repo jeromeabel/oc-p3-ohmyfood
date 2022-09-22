@@ -232,27 +232,30 @@ button {
   height: 75px;
   background-color: white;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  padding: 15px;
+}
+.item h4 {
+  font-size: 18px;
+}
+.item__bottom {
+  display: flex;
   justify-content: space-between;
-  align-items: center;
 }
-.item * {
-  outline: 1px solid red;
-}
-.item__txt {
+.item__bottom p {
   flex: 1;
-  overflow: hidden;
-}
-.item__txt p {
-  width: 100%;
+  font-weight: 300;
   white-space: nowrap;
+  font-size: 16px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.item__price {
+.item__bottom span {
+  text-align: center;
   width: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-weight: 600;
 }
 
 .header {
