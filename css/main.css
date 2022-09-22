@@ -468,7 +468,7 @@ button {
   position: relative;
   margin-top: -3rem;
   border-radius: 3rem 3rem 0 0;
-  padding: 2rem 1rem;
+  padding: 1.2rem 1.2rem;
 }
 .restaurant__header {
   display: flex;
