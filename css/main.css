@@ -386,4 +386,18 @@ button {
   font-family: Shrikhand;
   font-size: 28px;
   font-weight: 100;
+}
+.restaurant__btn {
+  text-align: center;
+  margin: 50px auto;
+}
+.restaurant__btn button {
+  height: 50px;
+  padding-inline: 50px;
+  border-radius: 25px;
+  background: linear-gradient(#FF79DA, #9356DC);
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

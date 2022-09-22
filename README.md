@@ -37,19 +37,24 @@ Projet3_abel_jerome.zip :
 - Pages : accueil + 4 menus
 - Charte graphique fonts et couleurs
 
-## Questions / problèmes
-- github pages ? ou repo ?
-- git branches / fonctionnalité + merge ?
-- ? container ?
-- fonts link ou sass import ?
+## Questions I
+- github pages ? ou repo puis github pages ?
+- git branches ? par fonctionnalité + merge ?
+- utilisation de classes container ?
 - breakpoints: 375px ou 750px ?
-- thème paris ?
-- logo image ou font ?
-- images responsive ? un seul dossier... > img ou picture
-- card : img alignement différent ?
-- box-shadow logo ?
-- apparition/disparition éléments ? Nouveau (card) + Arrow (header menu) > classes display none/block
+- header : box-shadow logo ?
+- accueil - card : img alignement différent ?
+- page menu : main au dessus de l'image du header : top:-125px ?
+
+
+## Questions II
 - anim. background > opacity (performances)
+- logo image ou font ?
+- fonts link ou sass import ?
+- thème paris ?
+- images responsive ? un seul dossier... > img ou picture
+- apparition/disparition éléments ? Nouveau (card) + Arrow (header menu) > classes display none/block
+
 
 ## Setup Live Sass Compiler
 ```
