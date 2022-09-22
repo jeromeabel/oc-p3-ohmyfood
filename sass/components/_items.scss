@@ -33,6 +33,14 @@
     height: 70px;
     display: flex;
     overflow: hidden;
+
+    // delay for each item
+    @for $i from 1 through 9 {
+        &--#{$i} {
+            $delay: $i * 80;
+            animation: menu-fadein 380ms #{$delay}ms ease-in-out both;
+        }
+    }
     
     &__header {
             padding: 1rem;
@@ -68,7 +76,7 @@
         }
     }
 
-   &:hover &__select {
+    &:hover &__select {
         margin-right: 0;
         i {
             transform: rotate(-360deg);
