@@ -1,3 +1,18 @@
+// Loader
+@keyframes loader-rotate {
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes loader-fadeout {
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+// Menu items
 @keyframes menu-fadein {
     0% {
         opacity: 0;

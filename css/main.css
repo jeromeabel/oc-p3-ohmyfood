@@ -43,6 +43,29 @@ button {
   display: none;
 }
 
+@-webkit-keyframes loader-rotate {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes loader-rotate {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@-webkit-keyframes loader-fadeout {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes loader-fadeout {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 @-webkit-keyframes menu-fadein {
   0% {
     opacity: 0;
@@ -58,7 +81,6 @@ button {
     transform: translateY(0);
   }
 }
-
 @keyframes menu-fadein {
   0% {
     opacity: 0;
@@ -196,9 +218,9 @@ button {
   /* bg color */
   background-color: #f6f6f6;
   opacity: 0.95;
-  /*anim*/
-  -webkit-animation: fadeout 3s 750ms linear forwards;
-          animation: fadeout 3s 750ms linear forwards;
+  /* anim */
+  -webkit-animation: loader-fadeout 3s 750ms linear forwards;
+          animation: loader-fadeout 3s 750ms linear forwards;
 }
 .loader::after {
   content: "";
@@ -208,8 +230,8 @@ button {
   border-bottom-color: #FF79DA;
   border-top-color: #9356DC;
   border-radius: 50%;
-  -webkit-animation: loading 0.8s 0.2s ease infinite;
-          animation: loading 0.8s 0.2s ease infinite;
+  -webkit-animation: loader-rotate 0.8s 0.2s ease infinite;
+          animation: loader-rotate 0.8s 0.2s ease infinite;
 }
 .loader::before {
   content: "";
@@ -220,33 +242,10 @@ button {
   border-right-color: #99E2D0;
   border-left-color: #99E2D0;
   border-radius: 50%;
-  -webkit-animation: loading 0.65s 0.01s ease-in-out infinite;
-          animation: loading 0.65s 0.01s ease-in-out infinite;
+  -webkit-animation: loader-rotate 0.65s 0.01s ease-in-out infinite;
+          animation: loader-rotate 0.65s 0.01s ease-in-out infinite;
 }
 
-@-webkit-keyframes loading {
-  to {
-    transform: rotate(-360deg);
-  }
-}
-
-@keyframes loading {
-  to {
-    transform: rotate(-360deg);
-  }
-}
-@-webkit-keyframes fadeout {
-  to {
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-@keyframes fadeout {
-  to {
-    opacity: 0;
-    visibility: hidden;
-  }
-}
 .items {
   display: flex;
   flex-direction: column;

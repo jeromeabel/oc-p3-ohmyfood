@@ -14,10 +14,10 @@
     /* bg color */
     background-color: $color-grey-2;
     opacity: .95;
-    /*anim*/
-    animation: fadeout 3s 750ms linear forwards;
+    /* anim */
+    animation: loader-fadeout 3s 750ms linear forwards;
 
-    // animated pseudo element
+    // animated pseudo element n°1
     &::after {
         content: "";
         width: 100px;
@@ -26,10 +26,10 @@
         border-bottom-color: $color-2;
         border-top-color: $color-1;
         border-radius: 50%;
-        animation: loading 0.8s 0.2s ease infinite;
+        animation: loader-rotate 0.8s 0.2s ease infinite;
     }
 
-    // animated pseudo element
+    // animated pseudo element n°2
     &::before {
         content: "";
         position: absolute;
@@ -38,21 +38,7 @@
         border: 10px solid transparent;
         border-right-color: $color-3;
         border-left-color: $color-3;
-        // border-bottom-color: $color-3;
         border-radius: 50%;
-        animation: loading 0.65s 0.01s ease-in-out infinite;
-    }
-}
-
-@keyframes loading {
-    to {
-        transform: rotate(-360deg);
-    }
-}
-
-@keyframes fadeout {
-    to {
-        opacity: 0;
-        visibility: hidden;
+        animation: loader-rotate 0.65s 0.01s ease-in-out infinite;
     }
 }
