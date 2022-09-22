@@ -208,6 +208,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  padding: 5px 0;
 }
 .items h3 {
   text-transform: uppercase;
@@ -228,14 +229,15 @@ button {
 }
 
 .item {
-  border-radius: 20px;
-  height: 75px;
+  border-radius: 15px;
+  height: 65px;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 5px;
   padding: 15px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.12);
 }
 .item h4 {
   font-size: 18px;
@@ -254,6 +256,7 @@ button {
 }
 .item__bottom span {
   text-align: center;
+  font-size: 14px;
   width: 50px;
   font-weight: 600;
 }
