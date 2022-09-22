@@ -286,51 +286,6 @@ button {
   transform: rotate(-360deg);
 }
 
-/*
-.item {
-    background-color: white;
-    overflow: hidden;
-    cursor: pointer;
-    max-width: 100%;
-    display: flex;
-    padding: 1rem;
-    border-radius: 0.75rem;
-    box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
-
-    &__header {
-        overflow: hidden;
-        flex: 1;
-        * {
-            white-space: nowrap;
-            text-overflow: ellipsis;
-            overflow: hidden;
-        }
-    }
-
-    &__price {
-        font-weight: bold;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        padding-left: 0.5rem;
-      }
-
-      &__select {
-        background-color: $color-3;
-        margin: -1rem -5rem -1rem 1rem;
-        width: 4rem;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        transition-duration: 0.5s;
-      }
-
-      &:hover &__select {
-        margin-right: -1rem;
-      }
-
-}
-*/
 .header__logo {
   height: 60px;
   display: flex;
