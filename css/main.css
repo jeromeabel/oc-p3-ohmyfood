@@ -7,6 +7,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  color: black;
 }
 
 picture, img {
@@ -15,9 +16,7 @@ picture, img {
   max-width: 100%;
 }
 
-header,
-main,
-footer {
+header, main, footer {
   width: 100%;
 }
 
@@ -28,7 +27,7 @@ footer {
 
 a {
   text-decoration: none;
-  color: black;
+  color: inherit;
 }
 
 ul {
@@ -38,14 +37,6 @@ ul {
 button {
   border-style: none;
   background-color: transparent;
-}
-
-.on {
-  display: block;
-}
-
-.off {
-  display: none;
 }
 
 @-webkit-keyframes loader-rotate {
@@ -80,7 +71,7 @@ button {
     opacity: 1;
   }
   90% {
-    transform: translateY(-2%);
+    transform: translateY(-3%);
   }
   100% {
     transform: translateY(0);
@@ -95,7 +86,7 @@ button {
     opacity: 1;
   }
   90% {
-    transform: translateY(-2%);
+    transform: translateY(-3%);
   }
   100% {
     transform: translateY(0);
@@ -139,6 +130,26 @@ button {
 }
 .menu__btn:hover i {
   color: #9356DC;
+}
+
+.main-btn {
+  margin: 10px auto;
+  display: block;
+  text-align: center;
+  color: white;
+  height: 50px;
+  padding-inline: 25px;
+  border-radius: 25px;
+  background: linear-gradient(#FF79DA, #9356DC);
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 350ms ease-in-out;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+.main-btn:hover {
+  background: linear-gradient(#ff88de, #9b63df);
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
 }
 
 .card {
@@ -358,78 +369,44 @@ button {
   transform: rotate(-360deg);
 }
 
-.header__logo {
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
-  /* top of location*/
-  z-index: 1;
-}
-.header__logo a {
-  position: absolute;
-  left: 0px;
-  padding: 20px;
-  font-size: 20px;
-}
-.header__logo a:hover {
-  color: #FF79DA;
-}
-.header__logo picture, .header__logo img {
-  height: 29px;
-  width: auto;
-}
-.header__image {
-  max-width: 100%;
-  max-height: 32rem;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.header__location {
+.home__location {
   height: 50px;
-  font-size: 18px;
+  font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f1eded;
 }
-.header__location i {
-  margin-right: 20px;
+.home__location i {
+  margin-right: 10px;
 }
-.header__intro {
+.home__hero {
   padding: 40px 20px;
   text-align: center;
   background-color: #f6f6f6;
 }
-.header__intro h1 {
+.home__hero h1 {
   font-size: 28px;
 }
-.header__intro h2 {
+.home__hero h2 {
   margin: 20px auto;
   font-weight: 100;
   font-size: 18px;
 }
-.header__btn {
-  margin: 10px auto;
-  display: block;
-  text-align: center;
-  color: white;
-  height: 50px;
-  padding-inline: 25px;
-  border-radius: 25px;
-  background: linear-gradient(#FF79DA, #9356DC);
-  font-size: 18px;
-  font-weight: 400;
-  cursor: pointer;
-  transition: all 350ms ease-in-out;
-  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.3);
+  position: relative;
 }
-.header__btn:hover {
-  background: linear-gradient(#ff88de, #9b63df);
-  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
+.header__title {
+  font-size: 28px;
+  font-family: Shrikhand;
+  font-weight: 100;
+  font-style: normal;
 }
 
 .footer {
@@ -507,7 +484,7 @@ button {
   padding-inline: 25px;
   border-radius: 25px;
   background: linear-gradient(#FF79DA, #9356DC);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   cursor: pointer;
   transition: all 350ms ease-in-out;
@@ -516,4 +493,17 @@ button {
 .restaurant__btn:hover {
   background: linear-gradient(#ff88de, #9b63df);
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*
+    &__image {
+        // 
+        // width:100%;
+        // max-width:100%;
+        // object-fit: cover;
+        max-width: 100%;
+        max-height: 32rem;
+        width: 100%;
+        object-fit: cover;
+    }
+    *//*# sourceMappingURL=main.css.map */

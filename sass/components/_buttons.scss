@@ -41,3 +41,10 @@
     }
 }
 
+.main-btn {
+        margin: 10px auto;
+        @include btn-main;
+        &:hover {
+            @include btn-main-hover;
+        }
+}

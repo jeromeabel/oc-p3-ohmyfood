@@ -23,35 +23,34 @@
 
 <body>
     <!-- LOADER SPINNER -->
-    <div class="loader"></div>
+    <!-- <div class="loader"></div> -->
 
     <!-- HEADER -->
     <header class="header">
         <div class="container">
-            <picture>
-                <source srcset="./images/logo/ohmyfood@2x.svg 2x" media="(min-width:768px)">
-                <img src="./images/logo/ohmyfood.png" alt="Logo de Ohmyfood!"
-                    srcset="./images/logo/ohmyfood.png 1x, ./images/logo/ohmyfood@2x.svg 2x">
-            </picture>
-        </div><!-- container -->
+            <h1 class="header__title">ohmyfood</h1>
+        </div>
     </header>
 
     <!-- MAIN -->
     <main>
 
         <!-- HOME -->
-        <section class="home">
+        <section class="home__location">
             <div class="container">
-                <p class="home__location"><i class="fa-solid fa-location-dot"></i> Paris, Belleville</p>
-                <div class="home__txt">
-                    <h1>Réservez le menu qui vous convient</h1>
-                    <h2>Découvrez des restaurants d'exception, sélectionnés par nos soins.</h2>
-                    <button class="main-btn">Explorer nos restaurants</button>
-                </div>
+                <p><i class="fa-solid fa-location-dot"></i> Paris, Belleville</p>
             </div>
         </section>
 
-        <!-- MENU -->
+        <section class="home__hero">
+            <div class="container">
+                <h1>Réservez le menu qui vous convient</h1>
+                <h2>Découvrez des restaurants d'exception, sélectionnés par nos soins.</h2>
+                <button class="main-btn">Explorer nos restaurants</button>
+            </div>
+        </section>
+
+        <!-- HOME MENU -->
         <section class="menu">
             <div class="container">
                 <div class="menu__heading">
@@ -183,4 +182,5 @@
         </div><!-- container -->
     </footer>
 </body>
+
 </html>

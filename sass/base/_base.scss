@@ -7,7 +7,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: $font-s;
+    color:black;
 }
 
 picture, img {
@@ -16,9 +17,7 @@ picture, img {
     max-width: 100%;
 }
 
-header,
-main,
-footer {
+header, main, footer {
     width: 100%;
 }
 
@@ -29,7 +28,7 @@ footer {
 
 a { 
     text-decoration:none;
-    color:black;
+    color:inherit;
 }
 
 ul {
@@ -41,8 +40,8 @@ button {
     background-color: transparent;
 }
 
-.on {display:block;}
-.off { display:none;}
+// .on {display:block;}
+// .off { display:none;}
 
 // h1, h2, h3, h4, h5, h6 {
 //     font-family: 'Shrikhand', cursive;

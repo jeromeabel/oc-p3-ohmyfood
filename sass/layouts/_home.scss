@@ -1,0 +1,25 @@
+.home {
+    &__location {
+        height:50px;
+        font-size: $font-s;
+        @include center;
+        background-color: $color-grey-1;
+        i { 
+            margin-right: 10px;
+        }  
+    }
+
+    &__hero {
+        padding:40px 20px;
+        text-align: center;
+        background-color: $color-grey-2;
+        h1 {
+            font-size:$font-xxl;
+        }
+        h2 {
+            margin: 20px auto;
+            font-weight: 100;
+            font-size:$font-m;
+        }
+    }
+}
