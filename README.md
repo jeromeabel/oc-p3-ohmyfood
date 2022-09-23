@@ -55,5 +55,5 @@ Projet3_abel_jerome.zip :
 - Git commit + petits
 - découpage, dimensions
 - BEM
-- Sass : organisation, nesting, mixins
-- Animations
+- Sass : organisation, nesting, mixins, @for
+- Animations, stacked, tempo
