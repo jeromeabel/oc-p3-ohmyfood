@@ -1,29 +1,31 @@
 # 🎯 TODO
+- [ ] Classes container : max-width
+- [ ] Components : card (+stacked icon), sans absolute
+- [ ] Page Menu a : image et titre à placer margin-top
+- [ ] Layout Tablets : maximum de Flex, + petit au + grand avec min-width
+- [ ] Layout Desktop
+- [ ] Pages Menus b, c, d
+- [ ] Validations
+- [ ] Tests Chrome et Firefox
 
-- [x] Mise en place sur Github (pages)
-- [x] Branch develop
+## DONE
+- [x] Mise en place sur Github et déploiement Github Page (settings > page > save)
+- [x] Mise en pratique des branches
 - [x] Fonts Shrikhand + Roboto
 - [x] Mise en place SASS
-- [x] Découpage - Inkscape
+- [x] Découpage - Inkscape : 350px
 - [x] Dimensions - Figma / Measure
-- [x] Header - Accueil
+- [x] Header - Accueil : (z-index pour box-shadow)
 - [x] Header - Menu
 - [x] Footer
 - [x] Components : menu btn
 - [x] Layout : menu
-- [x] Components : card (+stacked icon)
 - [x] Layout : card
 - [x] Page Accueil
 - [x] Anim - menu__btn:hover : progressivement bg color lighten, shadow + visible
-- [x] Anim - card__heart:hover (❤️): se remplir progressivement
-- [x] Anim - accueil : loader spinner : page intégrale, durée 1s-3s, design libre
+- [x] Anim - card__heart:hover (❤️): se remplir progressivement, webkit-background-clip: text; (masque)
+- [x] Anim - accueil : loader spinner : page intégrale, durée 1s-3s, design libre (z-index, visibility)
 - [x] Page Menu a : footer
-- [-] Page Menu a : header !image
-- [x] Page Menu a : main
+- [ ] Page Menu a : main
 - [x] Anim - menu : chargement de la page : apparition progressive des plats (un par un ou en groupe entrée/plat/dessert) +  légers décalages
-- [x] Anim - menu - btn commande:hover : coche de droite à gauche, texte trop long rogné avec "..."
-- [ ] Pages Menus b, c, d
-- [ ] Layout Tablets
-- [ ] Layout Desktop
-- [ ] Validations
-- [ ] Tests Chrome et Firefox
+- [x] Anim - menu - btn commande:hover : coche de droite à gauche (margin-right), texte trop long rogné avec "..."
