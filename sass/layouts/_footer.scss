@@ -6,7 +6,6 @@
         font-family: 'Shrikhand', cursive;
         font-weight: 400;
     }
-
 }
 
 .nav {
@@ -19,6 +18,9 @@
         i {
             display: inline-block;
             width:20px;
+        }
+        &:hover{
+            text-decoration: underline;
         }
     }
 }

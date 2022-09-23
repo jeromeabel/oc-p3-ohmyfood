@@ -432,6 +432,9 @@ button {
   display: inline-block;
   width: 20px;
 }
+.nav__link:hover {
+  text-decoration: underline;
+}
 
 .menu {
   padding: 50px 20px;
