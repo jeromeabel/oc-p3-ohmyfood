@@ -27,37 +27,33 @@
 
     <!-- HEADER -->
     <header class="header">
-        <div class="header__logo">
-            <div class="container">
-                <picture>
-                    <source srcset="./images/logo/ohmyfood@2x.svg 2x" media="(min-width:768px)">
-                    <img src="./images/logo/ohmyfood.png" alt="Logo de Ohmyfood!"
-                        srcset="./images/logo/ohmyfood.png 1x, ./images/logo/ohmyfood@2x.svg 2x">
-                </picture>
-            </div><!-- container -->
-        </div>
-
-        
-            <div class="header__body">
-                <div class="container">
-                <p class="header__location"><i class="fa-solid fa-location-dot"></i> Paris, Belleville</p>
-                <div class="header__intro">
-                    <h1>Réservez le menu qui vous convient</h1>
-                    <h2>Découvrez des restaurants d'exception, sélectionnés par nos soins.</h2>
-                    <button class="header__btn">Explorer nos restaurants</button>
-                </div>
-            </div>
-        </div>
+        <div class="container">
+            <picture>
+                <source srcset="./images/logo/ohmyfood@2x.svg 2x" media="(min-width:768px)">
+                <img src="./images/logo/ohmyfood.png" alt="Logo de Ohmyfood!"
+                    srcset="./images/logo/ohmyfood.png 1x, ./images/logo/ohmyfood@2x.svg 2x">
+            </picture>
+        </div><!-- container -->
     </header>
 
     <!-- MAIN -->
     <main>
 
-        <div class="container">
+        <!-- HOME -->
+        <section class="home">
+            <div class="container">
+                <p class="home__location"><i class="fa-solid fa-location-dot"></i> Paris, Belleville</p>
+                <div class="home__txt">
+                    <h1>Réservez le menu qui vous convient</h1>
+                    <h2>Découvrez des restaurants d'exception, sélectionnés par nos soins.</h2>
+                    <button class="main-btn">Explorer nos restaurants</button>
+                </div>
+            </div>
+        </section>
 
-            <!-- MENU -->
-            <section class="menu">
-
+        <!-- MENU -->
+        <section class="menu">
+            <div class="container">
                 <div class="menu__heading">
                     <h2>Fonctionnement</h2>
                 </div>
@@ -67,23 +63,23 @@
                         <i class="fa-solid fa-mobile-screen-button"></i>
                         Choisissez un restaurant
                     </button>
-
                     <button class="menu__btn">
                         <span class="menu__btn__nb">2</span>
                         <i class="fa-solid fa-list"></i>
                         Composez votre menu
                     </button>
-
                     <button class="menu__btn">
                         <span class="menu__btn__nb">3</span>
                         <i class="fa-solid fa-store"></i>
                         Dégustez au restaurant
                     </button>
                 </div>
-            </section><!-- /menu -->
+            </div>
+        </section><!-- /menu -->
 
-            <!-- Resturants list cards -->
-            <section class="restaurants">
+        <!-- Resturants list cards -->
+        <section class="restaurants">
+            <div class="container">
                 <h2 class="restaurants__heading">Restaurants</h2>
 
                 <section class="restaurants__list">
@@ -168,10 +164,8 @@
                         </article>
                     </a>
                 </section>
-
-            </section><!-- /restaurants -->
-
-        </div><!-- container -->
+            </div><!-- container -->
+        </section><!-- /restaurants -->
     </main>
 
     <!-- FOOTER -->
@@ -186,9 +180,7 @@
                 <li><a class="nav__link" href="#" title="Mentions légales">Mentions légales</a></li>
                 <li><a class="nav__link" href="mailto:contact@ohmyfood.com" title="Contact">Contact</a></li>
             </ul>
-
         </div><!-- container -->
     </footer>
 </body>
-
 </html>
