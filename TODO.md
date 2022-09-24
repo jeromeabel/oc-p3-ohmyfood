@@ -1,7 +1,5 @@
 # 🎯 TODO
-- [ ] Classes container : max-width
 - [ ] Components : card (+stacked icon), sans absolute
-- [ ] Page Menu a : image et titre à placer margin-top
 - [ ] Layout Tablets : maximum de Flex, + petit au + grand avec min-width
 - [ ] Layout Desktop
 - [ ] Pages Menus b, c, d
@@ -29,3 +27,5 @@
 - [ ] Page Menu a : main
 - [x] Anim - menu : chargement de la page : apparition progressive des plats (un par un ou en groupe entrée/plat/dessert) +  légers décalages
 - [x] Anim - menu - btn commande:hover : coche de droite à gauche (margin-right), texte trop long rogné avec "..."
+- [x] Classes container : max-width
+- [x] Page Menu a : image et titre à placer margin-top
