@@ -199,6 +199,7 @@ button {
 }
 .card__heart {
   font-size: 28px;
+  cursor: pointer;
 }
 .card__heart .fa-solid {
   opacity: 0;
@@ -397,7 +398,7 @@ button {
 .header {
   height: 60px;
   box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.3);
-  z-index: 1;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -477,13 +478,19 @@ button {
   gap: 20px;
 }
 
-.restaurant {
-  /* top of header image*/
-  z-index: 1;
-  background-color: #f6f6f6;
+.restaurant__img {
+  max-width: 100%;
+  max-height: 32rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.restaurant__body {
   position: relative;
+  margin-top: -2rem;
   border-radius: 3rem 3rem 0 0;
   padding: 1.2rem 1.2rem;
+  background-color: #f6f6f6;
 }
 .restaurant__header {
   display: flex;
@@ -513,17 +520,4 @@ button {
 .restaurant__btn:hover {
   background: linear-gradient(#ff88de, #9b63df);
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
-}
-
-/*
-    &__image {
-        // 
-        // width:100%;
-        // max-width:100%;
-        // object-fit: cover;
-        max-width: 100%;
-        max-height: 32rem;
-        width: 100%;
-        object-fit: cover;
-    }
-    *//*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

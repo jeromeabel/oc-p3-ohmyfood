@@ -9,7 +9,6 @@
     &__header {
         @include center;
         position: relative;
-
         img {
             object-fit: cover;
         }
@@ -48,6 +47,7 @@
 
     &__heart {
         font-size: $font-xxl;
+        cursor: pointer;
 
         .fa-solid {
             opacity: 0;
