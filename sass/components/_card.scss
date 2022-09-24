@@ -40,9 +40,11 @@
     }
 
     &__heart {
-        font-size: $font-xl;
-        cursor: pointer;
         position: relative;
+        width:1.5rem;
+        height: 1.5rem;
+        font-size: 1.5rem;
+        cursor: pointer;
         .fa-solid {
             position: absolute;
             top:0;

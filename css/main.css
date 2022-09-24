@@ -193,9 +193,11 @@ button {
   font-weight: 100;
 }
 .card__heart {
-  font-size: 22px;
-  cursor: pointer;
   position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 .card__heart .fa-solid {
   position: absolute;
