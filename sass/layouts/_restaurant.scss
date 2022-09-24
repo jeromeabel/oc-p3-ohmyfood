@@ -9,9 +9,9 @@
 
     &__body {
         position: relative;
-        margin-top: -2rem;
-        border-radius: 3rem 3rem 0 0;
-        padding:1.2rem 1.2rem;
+        margin-top: -2.5rem;
+        border-radius: 2.5rem 2.5rem 0 0;
+        padding: 1.2rem 1.2rem;
         background-color: $color-grey-2;
     }
 
@@ -29,7 +29,6 @@
     &__btn {
         margin: 50px auto;
         @include btn-main;
-
         &:hover {
             @include btn-main-hover;
         }
