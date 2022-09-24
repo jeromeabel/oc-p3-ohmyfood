@@ -2,8 +2,7 @@
     height: 60px;
     box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.3);
     z-index: 1;
-    display:grid;
-    align-items: center;
+    @include center;
 
     h1 {
         font-size: $font-xxl;
@@ -13,10 +12,6 @@
 
     &--relative {
         position: relative;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
 
         a {
             position: absolute;
@@ -24,14 +19,12 @@
             top:0;
             height: 100%;
             width: 4rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            @include center;
             font-size: $font-xl;
-            transition:all 200ms ease-out;
+            transition: all 200ms ease-out;
             &:hover {
                 color: $color-2;
-                transform: translateX(-0.5rem);
+                transform: translateX(-10%);
             }
         }
     }

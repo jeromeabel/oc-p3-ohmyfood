@@ -398,7 +398,8 @@ button {
   height: 60px;
   box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.3);
   z-index: 1;
-  display: grid;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 .header h1 {
@@ -408,10 +409,6 @@ button {
 }
 .header--relative {
   position: relative;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .header--relative a {
   position: absolute;
@@ -420,14 +417,14 @@ button {
   height: 100%;
   width: 4rem;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   font-size: 22px;
   transition: all 200ms ease-out;
 }
 .header--relative a:hover {
   color: #FF79DA;
-  transform: translateX(-0.5rem);
+  transform: translateX(-10%);
 }
 
 .footer {
