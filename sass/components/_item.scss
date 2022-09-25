@@ -8,11 +8,13 @@
     overflow: hidden;
     cursor: pointer;
 
-    // delay for each item
-    @for $i from 1 through 10 {
+    animation: menu-fadein 500ms 80ms ease-in-out both;
+
+    // animation delay for each item
+    @for $i from 2 through 10 {
         &--#{$i} {
-            $delay: $i * 80;
-            animation: menu-fadein 380ms #{$delay}ms ease-in-out both;
+            $delay: ($i + 1) * 80;
+            animation-delay: #{$delay}ms;
         }
     }
     
