@@ -18,6 +18,7 @@ picture, img {
 
 header, main, footer {
   width: 100%;
+  min-width: 350px;
 }
 
 .container {
