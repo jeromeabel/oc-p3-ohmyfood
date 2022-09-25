@@ -25,8 +25,8 @@ Dynamisez une page web avec des animations CSS
 
 **Livrables**
 Projet3_abel_jerome.zip :
-- Abel_Jerome_1_code_092022.txt : https://github.com/jeromeabel/jeromeabel.github.io
-- Abel_Jerome_2_site_092022.txt : https://jeromeabel.github.io/
+- Abel_Jerome_1_code_092022.txt : https://github.com/jeromeabel/oc-p3-ohmyfood
+- Abel_Jerome_2_site_092022.txt : https://jeromeabel.github.io/oc-p3-ohmyfood/
 
 ## Mission
 - Responsive : mobile-first (maquette), tablet & desktop (free)
@@ -36,7 +36,6 @@ Projet3_abel_jerome.zip :
 - Navigateurs Chrome et Firefox
 - Pages : accueil + 4 menus
 - Charte graphique fonts et couleurs
-
 
 ## Setup Live Sass Compiler
 ```
@@ -50,11 +49,11 @@ Projet3_abel_jerome.zip :
   ]
 ```
 
-## Apprentissage
+## Apprentissages
 - Git branch
 - Git commit + petits
 - découpage, dimensions
 - BEM
 - Sass : organisation, nesting, mixins, @for
-- Animations, stacked, tempo
+- Animations, stacked, tempo : loader, heart, check
 - Flex responsive + grid
