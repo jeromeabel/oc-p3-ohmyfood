@@ -57,3 +57,4 @@ Projet3_abel_jerome.zip :
 - Sass : organisation, nesting, mixins, @for
 - Animations, stacked, tempo : loader, heart, check
 - Flex responsive + grid
+- margin
