@@ -8,16 +8,19 @@
         height: 250px;
     }
 
-
     .items {
-        h3 { font-size: $font-xl; }
+        h3 {
+            font-size: $font-xl;
+        }
     }
 
-    
     .item {
-        &__header, &__price { padding: 1.5rem; }
 
-        //height: 90px;
+        &__header,
+        &__price {
+            padding: 1.5rem;
+        }
+
         font-size: $font-l;
     }
 }
