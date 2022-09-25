@@ -1,6 +1,4 @@
 # 🎯 TODO
-- [ ] Validations
-- [ ] Tests Chrome et Firefox
 
 ## DONE
 - [x] Mise en place sur Github et déploiement Github Page (settings > page > save)
@@ -29,3 +27,5 @@
 - [x] Layout Tablets : maximum de Flex, + petit au + grand avec min-width
 - [x] Layout Desktop
 - [x] Pages Menus b, c, d
+- [x] Validations
+- [x] Tests Chrome et Firefox
