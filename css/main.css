@@ -329,10 +329,10 @@ button {
   text-align: center;
   background-color: #f6f6f6;
 }
-.home__hero h1 {
+.home__hero h2 {
   font-size: 28px;
 }
-.home__hero h2 {
+.home__hero h3 {
   margin: 20px auto;
   font-weight: 100;
   font-size: 18px;
@@ -552,10 +552,10 @@ button {
   .home__location {
     font-size: 18px;
   }
-  .home__hero h1 {
+  .home__hero h2 {
     font-size: 28px;
   }
-  .home__hero h2 {
+  .home__hero h3 {
     font-weight: 400;
     font-size: 20px;
   }
