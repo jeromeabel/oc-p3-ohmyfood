@@ -68,10 +68,10 @@ button {
     opacity: 0;
     transform: translateY(15%);
   }
-  50% {
+  60% {
     opacity: 1;
   }
-  90% {
+  80% {
     transform: translateY(-3%);
   }
   100% {
@@ -83,10 +83,10 @@ button {
     opacity: 0;
     transform: translateY(15%);
   }
-  50% {
+  60% {
     opacity: 1;
   }
-  90% {
+  80% {
     transform: translateY(-3%);
   }
   100% {
@@ -236,46 +236,44 @@ button {
   display: flex;
   overflow: hidden;
   cursor: pointer;
-}
-.item--1 {
-  -webkit-animation: menu-fadein 380ms 80ms ease-in-out both;
-          animation: menu-fadein 380ms 80ms ease-in-out both;
+  -webkit-animation: menu-fadein 500ms 80ms ease-in-out both;
+          animation: menu-fadein 500ms 80ms ease-in-out both;
 }
 .item--2 {
-  -webkit-animation: menu-fadein 380ms 160ms ease-in-out both;
-          animation: menu-fadein 380ms 160ms ease-in-out both;
+  -webkit-animation-delay: 240ms;
+          animation-delay: 240ms;
 }
 .item--3 {
-  -webkit-animation: menu-fadein 380ms 240ms ease-in-out both;
-          animation: menu-fadein 380ms 240ms ease-in-out both;
+  -webkit-animation-delay: 320ms;
+          animation-delay: 320ms;
 }
 .item--4 {
-  -webkit-animation: menu-fadein 380ms 320ms ease-in-out both;
-          animation: menu-fadein 380ms 320ms ease-in-out both;
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
 }
 .item--5 {
-  -webkit-animation: menu-fadein 380ms 400ms ease-in-out both;
-          animation: menu-fadein 380ms 400ms ease-in-out both;
+  -webkit-animation-delay: 480ms;
+          animation-delay: 480ms;
 }
 .item--6 {
-  -webkit-animation: menu-fadein 380ms 480ms ease-in-out both;
-          animation: menu-fadein 380ms 480ms ease-in-out both;
+  -webkit-animation-delay: 560ms;
+          animation-delay: 560ms;
 }
 .item--7 {
-  -webkit-animation: menu-fadein 380ms 560ms ease-in-out both;
-          animation: menu-fadein 380ms 560ms ease-in-out both;
+  -webkit-animation-delay: 640ms;
+          animation-delay: 640ms;
 }
 .item--8 {
-  -webkit-animation: menu-fadein 380ms 640ms ease-in-out both;
-          animation: menu-fadein 380ms 640ms ease-in-out both;
+  -webkit-animation-delay: 720ms;
+          animation-delay: 720ms;
 }
 .item--9 {
-  -webkit-animation: menu-fadein 380ms 720ms ease-in-out both;
-          animation: menu-fadein 380ms 720ms ease-in-out both;
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
 }
 .item--10 {
-  -webkit-animation: menu-fadein 380ms 800ms ease-in-out both;
-          animation: menu-fadein 380ms 800ms ease-in-out both;
+  -webkit-animation-delay: 880ms;
+          animation-delay: 880ms;
 }
 .item__header {
   padding: 1rem;
@@ -551,6 +549,16 @@ button {
   }
 }
 @media (min-width: 992px) {
+  .home__location {
+    font-size: 18px;
+  }
+  .home__hero h1 {
+    font-size: 28px;
+  }
+  .home__hero h2 {
+    font-weight: 400;
+    font-size: 20px;
+  }
   .menu__list {
     flex-direction: row;
   }

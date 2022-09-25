@@ -1,5 +1,4 @@
 # 🎯 TODO
-- [ ] Pages Menus b, c, d
 - [ ] Validations
 - [ ] Tests Chrome et Firefox
 
@@ -29,3 +28,4 @@
 - [x] Components : card (+stacked icon), sans absolute
 - [x] Layout Tablets : maximum de Flex, + petit au + grand avec min-width
 - [x] Layout Desktop
+- [x] Pages Menus b, c, d
