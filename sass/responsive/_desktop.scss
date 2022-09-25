@@ -1,4 +1,21 @@
 @media (min-width:992px) {
+
+    .home {
+        &__location {
+            font-size: $font-m;
+        }
+
+        &__hero {
+            h1 {
+                font-size:$font-xxl;
+            }
+            h2 {
+                font-weight: 400;
+                font-size:$font-l;
+            }
+        }
+    }
+
     .menu__list {
         flex-direction: row;
     }
