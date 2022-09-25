@@ -3,7 +3,7 @@
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-    height: 70px;
+    //height: 70px;
     display: flex;
     overflow: hidden;
     cursor: pointer;
@@ -38,15 +38,13 @@
     &__select {
         display: grid;
         place-content: center;
-        width: 100px;
-        height: 100%;
-        margin-right: -100px;
+        width: 4rem;
+        height: auto;
+        margin-right: -4rem;
         background-color:$color-3;
         font-size:$font-xl;
         color: white;
- 
         transition: all 500ms;
-        
         i {
             transition: transform 700ms 100ms;
         }
