@@ -232,7 +232,6 @@ button {
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-  height: 70px;
   display: flex;
   overflow: hidden;
   cursor: pointer;
@@ -293,9 +292,9 @@ button {
 .item__select {
   display: grid;
   place-content: center;
-  width: 100px;
-  height: 100%;
-  margin-right: -100px;
+  width: 4rem;
+  height: auto;
+  margin-right: -4rem;
   background-color: #99E2D0;
   font-size: 22px;
   color: white;
@@ -459,11 +458,15 @@ button {
 }
 
 .items {
-  width: 100%;
+  display: grid;
+  gap: 2rem;
+}
+.items__list {
+  max-width: 100%;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  padding: 5px 0;
+  gap: 1rem;
 }
 .items h3 {
   text-transform: uppercase;
@@ -501,7 +504,7 @@ button {
   justify-content: space-between;
 }
 .restaurant__header h2 {
-  font-family: Shrikhand;
+  font-family: "Shrikhand";
   font-size: 28px;
   font-weight: 100;
 }
@@ -524,13 +527,6 @@ button {
   background: linear-gradient(#ff88de, #9b63df);
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
 }
-.restaurant__list {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1%;
-}
 
 @media (min-width: 768px) {
   .cards__list {
@@ -539,18 +535,14 @@ button {
   .card__header {
     height: 250px;
   }
-  .restaurant__list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    -moz-column-gap: 1rem;
-         column-gap: 1rem;
-  }
   .items h3 {
     font-size: 22px;
   }
   .item {
-    height: 90px;
     font-size: 20px;
+  }
+  .item__header, .item__price {
+    padding: 1.5rem;
   }
 }
 @media (min-width: 992px) {
@@ -559,5 +551,8 @@ button {
   }
   .card__header {
     height: 350px;
+  }
+  .items {
+    grid-template-columns: repeat(3, 1fr);
   }
 }/*# sourceMappingURL=main.css.map */
