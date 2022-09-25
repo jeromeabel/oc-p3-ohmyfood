@@ -1,6 +1,4 @@
 # 🎯 TODO
-- [ ] Layout Tablets : maximum de Flex, + petit au + grand avec min-width
-- [ ] Layout Desktop
 - [ ] Pages Menus b, c, d
 - [ ] Validations
 - [ ] Tests Chrome et Firefox
@@ -29,3 +27,5 @@
 - [x] Classes container : max-width
 - [x] Page Menu a : image et titre à placer margin-top
 - [x] Components : card (+stacked icon), sans absolute
+- [x] Layout Tablets : maximum de Flex, + petit au + grand avec min-width
+- [x] Layout Desktop

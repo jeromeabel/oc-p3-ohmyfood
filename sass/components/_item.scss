@@ -9,7 +9,7 @@
     cursor: pointer;
 
     // delay for each item
-    @for $i from 1 through 9 {
+    @for $i from 1 through 10 {
         &--#{$i} {
             $delay: $i * 80;
             animation: menu-fadein 380ms #{$delay}ms ease-in-out both;

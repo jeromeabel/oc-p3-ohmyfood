@@ -273,6 +273,10 @@ button {
   -webkit-animation: menu-fadein 380ms 720ms ease-in-out both;
           animation: menu-fadein 380ms 720ms ease-in-out both;
 }
+.item--10 {
+  -webkit-animation: menu-fadein 380ms 800ms ease-in-out both;
+          animation: menu-fadein 380ms 800ms ease-in-out both;
+}
 .item__header {
   padding: 1rem;
   flex: 1;
