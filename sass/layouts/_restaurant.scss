@@ -1,5 +1,4 @@
 .restaurant {
-  //position: relative;
     &__img {
         max-height: 500px;
         object-fit: cover;
@@ -18,7 +17,7 @@
         align-items: center;
         justify-content: space-between;
         h2 {
-            font-family:Shrikhand;
+            font-family:$font-title;
             font-size: $font-xxl;
             font-weight: 100;
         }
@@ -30,13 +29,5 @@
         &:hover {
             @include btn-main-hover;
         }
-    }
-
-    &__list {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap:1%;
     }
 }
