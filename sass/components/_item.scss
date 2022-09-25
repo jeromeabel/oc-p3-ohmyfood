@@ -1,0 +1,59 @@
+// One item
+.item {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    height: 70px;
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+
+    // delay for each item
+    @for $i from 1 through 9 {
+        &--#{$i} {
+            $delay: $i * 80;
+            animation: menu-fadein 380ms #{$delay}ms ease-in-out both;
+        }
+    }
+    
+    &__header {
+            padding: 1rem;
+            flex:1;
+            overflow: hidden;
+            * {
+                white-space: nowrap; 
+                overflow: hidden;
+                text-overflow: ellipsis; 
+            }
+    }
+
+    &__price {
+        padding:1rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        font-weight: bold;
+    }
+
+    &__select {
+        display: grid;
+        place-content: center;
+        height: 100%;
+        background-color:$color-3;
+        font-size:$font-xl;
+        color: white;
+        margin-right: -4rem;
+        transition: all 500ms;
+        width:4rem;
+        i {
+            transition: transform 700ms 100ms;
+        }
+    }
+
+    &:hover &__select {
+        margin-right: 0;
+        i {
+            transform: rotate(-360deg);
+        }
+    }
+}

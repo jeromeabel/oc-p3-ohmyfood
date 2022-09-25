@@ -8,14 +8,15 @@
 @import "components/buttons";
 @import "components/card";
 @import "components/loader";
-@import "components/items";
+@import "components/item";
 
 // LAYOUTS
 @import "layouts/home";
 @import "layouts/header";
 @import "layouts/footer";
 @import "layouts/menu";
-@import "layouts/restaurants";
+@import "layouts/cards";
+@import "components/items";
 @import "layouts/restaurant";
 
 // RESPONSIVE

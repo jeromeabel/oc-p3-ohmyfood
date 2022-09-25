@@ -1,0 +1,27 @@
+// List of items 
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 5px 0;
+
+    h3 {
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: $font-s;
+        position: relative;
+        padding-top: 25px;
+        padding-bottom: 10px;
+
+        // like a border bottom
+        &::after {
+            position: absolute;
+            content: "";
+            bottom: 0;
+            left: 0;
+            height: 3px;
+            width: 40px;
+            background-color: $color-3;
+        }
+    }
+}
