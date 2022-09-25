@@ -1,9 +1,7 @@
 .restaurant {
   //position: relative;
     &__img {
-        max-width: 100%;
-        max-height: 32rem;
-        width: 100%;
+        max-height: 500px;
         object-fit: cover;
     }
 
@@ -32,5 +30,13 @@
         &:hover {
             @include btn-main-hover;
         }
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:1%;
     }
 }

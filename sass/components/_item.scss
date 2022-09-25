@@ -38,13 +38,15 @@
     &__select {
         display: grid;
         place-content: center;
+        width: 100px;
         height: 100%;
+        margin-right: -100px;
         background-color:$color-3;
         font-size:$font-xl;
         color: white;
-        margin-right: -4rem;
+ 
         transition: all 500ms;
-        width:4rem;
+        
         i {
             transition: transform 700ms 100ms;
         }

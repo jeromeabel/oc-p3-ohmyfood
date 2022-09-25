@@ -57,3 +57,4 @@ Projet3_abel_jerome.zip :
 - BEM
 - Sass : organisation, nesting, mixins, @for
 - Animations, stacked, tempo
+- Flex responsive + grid

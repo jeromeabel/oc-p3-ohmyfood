@@ -8,4 +8,23 @@
     .card__header {
         height:250px;
     }
+
+    .restaurant__list {
+        //flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 1rem;
+    }
+
+
+
+    .items h3 {
+        font-size: $font-xl;
+    }
+    .item {
+        height:90px;
+        font-size: $font-l;
+    }
+
+
 }
