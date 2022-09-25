@@ -1,0 +1,11 @@
+.cards {
+    padding:50px 20px;
+    background-color: $color-grey-2;
+
+    &__list {
+        margin:25px 0;
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
