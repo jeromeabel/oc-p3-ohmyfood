@@ -8,5 +8,5 @@ Dynamisez une page web avec des animations CSS
 Formation OpenClassrooms
 
 - Ohmyfood! jeune startup New York > Paris
-- Intégrer un site menus de restaurants gastronomiques en HTML et CSS selon une maquette
+- Intégrer un site menus de restaurants gastronomiques en HTML et CSS selon une maquette, mobile first
 - Ajouter des animations
